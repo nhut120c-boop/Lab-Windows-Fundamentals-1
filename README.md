@@ -18,7 +18,7 @@ bitlocker
 ```
 ### writeup lab – windows desktop
 
-ở task này, em học về **windows desktop/gui**, là giao diện hiện ra sau khi đăng nhập vào windows. trong bài có nhắc các thành phần chính như **desktop**, **start menu**, **search box**, **task view**, **taskbar**, **toolbars** và **notification area**. 
+ở task này, em học về windows desktop/gui, là giao diện hiện ra sau khi đăng nhập vào windows. trong bài có nhắc các thành phần chính như desktop, start menu, search box, task view, taskbar, toolbars và notification area 
 
 với câu hỏi:
 
@@ -67,11 +67,9 @@ volume
 ```
 
 vì trong bài có nhắc notification area có thể hiện volume icon và network/wireless icon. nhưng đáp án này không khớp format vì chỉ có 6 chữ. 
+sau đó em kiểm tra lại giao diện notification area trên windows và nhận ra ngoài clock, network thì còn có action center. đây là khu vực dùng để hiển thị thông báo hệ thống và truy cập nhanh một số thiết lập của windows
 
-vì vậy em sửa lại thành:
-
-```text
+vì vậy em sửa đáp án thành:
+```
 action center
 ```
-
-em biết vậy vì action center khớp đúng format: `action` 6 chữ, `center` 6 chữ, ở giữa có 1 dấu cách. đây cũng là đáp án đúng được lab xác nhận. 
