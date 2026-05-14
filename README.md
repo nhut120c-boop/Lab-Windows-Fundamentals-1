@@ -72,3 +72,13 @@ vì vậy em sửa đáp án thành:
 ```
 action center
 ```
+task 3
+
+task này em chỉ đọc hướng dẫn và khởi động máy ảo windows được lab cấp
+
+task 4
+
+
+
+
+
