@@ -16,7 +16,6 @@ sau khi xem sự khác nhau giữa windows home và windows pro, em thấy tính
 ```
 bitlocker
 ```
-### writeup lab – windows desktop
 
 ở task này, em học về windows desktop/gui, là giao diện hiện ra sau khi đăng nhập vào windows. trong bài có nhắc các thành phần chính như desktop, start menu, search box, task view, taskbar, toolbars và notification area 
 
