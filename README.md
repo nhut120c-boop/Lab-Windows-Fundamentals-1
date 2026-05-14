@@ -52,7 +52,7 @@ nhưng lab báo sai, vì nó cần đúng tên selection trong windows. sau đó
 show task view button
 ```
 
-lý do là mục **show task view button** dùng để bật/tắt nút task view. muốn ẩn nó thì bỏ tick ở mục này.
+lý do là mục show task view button dùng để bật/tắt nút task view. muốn ẩn nó thì bỏ tick ở mục này.
 
 cuối cùng, câu hỏi:
 
@@ -66,7 +66,7 @@ ban đầu em nghĩ đáp án là:
 volume
 ```
 
-vì trong bài có nhắc notification area có thể hiện **volume icon** và **network/wireless icon**. nhưng đáp án này không khớp format vì chỉ có 6 chữ. khi thấy gợi ý còn **1 space và 6 dấu _**, em biết đáp án phải có dạng `______ ______`.
+vì trong bài có nhắc notification area có thể hiện volume icon và network/wireless icon. nhưng đáp án này không khớp format vì chỉ có 6 chữ. 
 
 vì vậy em sửa lại thành:
 
@@ -74,4 +74,4 @@ vì vậy em sửa lại thành:
 action center
 ```
 
-em biết vậy vì **action center** khớp đúng format: `action` 6 chữ, `center` 6 chữ, ở giữa có 1 dấu cách. đây cũng là đáp án đúng được lab xác nhận. 
+em biết vậy vì action center khớp đúng format: `action` 6 chữ, `center` 6 chữ, ở giữa có 1 dấu cách. đây cũng là đáp án đúng được lab xác nhận. 
