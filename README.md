@@ -176,4 +176,181 @@ the system environment variable for the Windows directory is %windir%
 ```
 
 
+task 6
+
+ở task này, em học về user accounts trên windows.
+
+trên windows local thường có 2 loại tài khoản:
+
+```text
+Administrator
+Standard User
+```
+
+Administrator -> có quyền cao, có thể thêm user, xóa user, sửa group, đổi setting hệ thống
+
+Standard User -> quyền thấp hơn, chỉ sửa được file/folder của chính user đó, không đổi được các thiết lập cấp hệ thống
+
+khi tạo user mới, windows sẽ tạo profile riêng cho user
+
+profile của user thường nằm trong:
+
+```text
+C:\Users
+```
+
+ví dụ user tên Max thì profile sẽ là:
+
+```text
+C:\Users\Max
+```
+
+ngoài phần Settings, em có thể xem user bằng Local Users and Groups
+
+cách mở:
+
+```text
+Win + R
+```
+
+sau đó nhập:
+
+```text
+lusrmgr.msc
+```
+
+rồi Enter.
+
+sau khi mở `lusrmgr.msc`, em thấy có 2 mục chính:
+
+```text
+Users
+Groups
+```
+
+Users -> dùng để xem danh sách tài khoản local.
+
+Groups -> dùng để xem các nhóm quyền trên máy.
+
+user thuộc group nào -> sẽ kế thừa quyền của group đó.
+
+một user có thể nằm trong nhiều group cùng lúc.
+
+câu hỏi 1:
+
+```text
+What is the name of the other user account?
+```
+
+hiểu đơn giản là hỏi: tên user khác trên máy là gì?
+
+cách tìm:
+
+```text
+mở lusrmgr.msc -> chọn Users -> xem danh sách user
+```
+
+<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/5c117773-2e01-4f55-b380-1e1b6826d167" />
+
+trong danh sách Users, em thấy ngoài các tài khoản mặc định còn có user:
+
+<img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/3997e7a9-4a34-4fc5-afdd-514fed13d612" />
+
+```text
+tryhackmebilly
+```
+
+=> đáp án:
+
+```text
+tryhackmebilly
+```
+
+câu hỏi 2:
+
+```text
+What groups is this user a member of?
+```
+
+hiểu đơn giản là hỏi: user này thuộc những group nào
+
+cách tìm:
+
+```text
+mở lusrmgr.msc -> Users -> double click tryhackmebilly -> tab Member Of
+```
+
+<img width="1900" height="1011" alt="image" src="https://github.com/user-attachments/assets/fc791aad-7aa8-4baa-be0b-bdc667c7954d" />
+
+
+trong tab Member Of sẽ hiện các group mà user này thuộc về.
+
+=> đáp án:
+
+```text
+Remote Desktop Users,Users
+```
+
+câu hỏi 3:
+
+```text
+What built-in account is for guest access to the computer?
+```
+
+hiểu đơn giản là hỏi: tài khoản built-in nào dùng cho khách truy cập máy?
+
+cách tìm:
+
+```text
+mở lusrmgr.msc -> Users -> nhìn cột Name
+```
+
+trong danh sách có tài khoản:
+
+```text
+Guest
+```
+
+đây là tài khoản mặc định dùng cho guest access.
+
+=> đáp án:
+
+```text
+Guest
+```
+
+câu hỏi 4:
+
+```text
+What is the account description?
+```
+
+hiểu đơn giản là hỏi: mô tả của tài khoản Guest là gì?
+
+cách tìm:
+
+```text
+mở lusrmgr.msc -> Users -> nhìn dòng Guest -> cột Description
+```
+
+ở dòng Guest, phần Description ghi là:
+
+```text
+Built-in account for guest access to the computer/domain
+```
+
+=> đáp án:
+
+```text
+Built-in account for guest access to the computer/domain
+```
+
+tóm tắt đáp án task 6:
+
+```text
+tryhackmebilly
+Remote Desktop Users,Users
+Guest
+Built-in account for guest access to the computer/domain
+```
 
