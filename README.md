@@ -446,3 +446,98 @@ trong bài có ghi rõ tên đầy đủ là User Account Control.
 User Account Control
 ```
 
+
+task 8
+
+ở task này, em học về Settings và Control Panel trên Windows.
+
+đây là 2 nơi chính dùng để thay đổi cấu hình hệ thống.
+
+Settings -> giao diện mới hơn, xuất hiện từ Windows 8.
+
+Control Panel -> giao diện cũ hơn, dùng để chỉnh nhiều thiết lập nâng cao.
+
+ví dụ:
+
+```text
+thêm máy in
+gỡ chương trình
+xem phần mềm đã cài
+đổi network adapter
+chỉnh firewall
+```
+
+Settings hiện nay là nơi user thường mở trước khi muốn đổi setting.
+
+nhưng một số mục nâng cao vẫn sẽ chuyển qua Control Panel.
+
+ví dụ:
+
+```text
+Settings
+-> Network & Internet
+-> Change adapter options
+-> mở cửa sổ thuộc Control Panel
+```
+
+nếu không biết mục cần chỉnh nằm ở đâu -> dùng Start Menu để search.
+
+ví dụ search:
+
+```text
+wallpaper
+```
+
+=> Windows sẽ đưa tới đúng mục đổi hình nền trong Settings.
+
+Control Panel còn có mục Programs and Features.
+
+mục này dùng để xem phần mềm đã cài trên máy.
+
+có thể thấy:
+
+```text
+tên phần mềm
+publisher
+version
+```
+
+trong forensics, mục này giúp kiểm tra máy có phần mềm lạ nào được cài thêm không.
+
+câu hỏi lab hỏi là:
+
+```text
+In the Control Panel, change the view to Small icons. What is the last setting in the Control Panel view?
+```
+
+hiểu đơn giản là:
+
+```text
+vào Control Panel -> đổi View by thành Small icons -> xem mục cuối cùng là gì?
+```
+
+cách làm:
+
+```text
+mở Start Menu
+-> search Control Panel
+-> mở Control Panel
+-> góc phải chọn View by: Small icons
+-> kéo xuống / nhìn mục cuối cùng
+```
+
+<img width="1889" height="954" alt="image" src="https://github.com/user-attachments/assets/7b345faf-af93-4d9c-a347-4ee237ae03b1" />
+
+mục cuối cùng trong lab là:
+
+```text
+Windows Defender Firewall
+```
+
+=> đáp án:
+
+```text
+Windows Defender Firewall
+```
+
+
