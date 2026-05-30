@@ -361,3 +361,88 @@ window$Fun1!
 ```text
 window$Fun1!
 ```
+task 7
+
+ở task này, em học về User Account Control (UAC).
+
+trên windows, nhiều user cá nhân thường đăng nhập bằng tài khoản local administrator.
+
+administrator -> có quyền thay đổi hệ thống.
+
+nhưng không phải lúc nào user cũng cần chạy với quyền cao.
+
+ví dụ:
+
+```text
+lướt web
+mở word
+xem file
+làm việc bình thường
+```
+
+=> mấy việc này không cần quyền administrator cao.
+
+nếu lúc nào cũng chạy quyền cao -> nguy hiểm hơn.
+
+lý do:
+
+```text
+malware chạy theo quyền của user
+user có quyền admin -> malware cũng dễ tác động hệ thống hơn
+```
+
+để giảm rủi ro này, microsoft tạo ra UAC.
+
+UAC xuất hiện từ Windows Vista và tiếp tục có trong các bản Windows sau đó.
+
+lưu ý:
+
+```text
+UAC mặc định không áp dụng cho built-in local administrator account
+```
+
+cách UAC hoạt động:
+
+khi user thuộc nhóm administrator đăng nhập vào windows, phiên làm việc ban đầu không chạy full quyền cao.
+
+khi chương trình cần quyền cao hơn -> windows hiện hộp thoại UAC để hỏi xác nhận.
+
+ví dụ khi cài chương trình:
+
+```text
+double click file cài đặt
+-> hiện biểu tượng cái khiên
+-> UAC prompt xuất hiện
+-> yêu cầu xác nhận / nhập password admin
+```
+
+biểu tượng cái khiên trên icon chương trình nghĩa là:
+
+```text
+chương trình cần quyền cao để chạy
+```
+
+nếu không nhập password hoặc không cho phép -> chương trình không được cài.
+
+=> UAC giúp giảm khả năng malware tự ý thay đổi hệ thống.
+
+câu hỏi lab hỏi là:
+
+```text
+What does UAC mean?
+```
+
+hiểu đơn giản là:
+
+```text
+UAC là viết tắt của cụm từ gì?
+```
+
+trong bài có ghi rõ tên đầy đủ là User Account Control.
+
+=> đáp án:
+
+```text
+User Account Control
+```
+
