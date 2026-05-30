@@ -96,9 +96,9 @@ ntfs cũng cho phép bảo mật tốt hơn thông qua việc thiết lập phâ
 chuẩn này còn có một tính năng gọi là alternate data streams (ads). đây là nơi mà các phần mềm độc hại (malware) thường lợi dụng để ẩn giấu dữ liệu.
 
 câu hỏi 
-
+```
 what is the meaning of ntfs?
-
+```
 hiểu đơn giản là lab đang hỏi: ntfs là viết tắt của cụm từ gì.
 
 sau khi đọc ngay dòng đầu tiên của tài liệu trong task, bài đã giải thích rất rõ
@@ -106,9 +106,74 @@ sau khi đọc ngay dòng đầu tiên của tài liệu trong task, bài đã g
 nguyên văn là: "The file system used in modern versions of Windows is the New Technology File System or simply NTFS"
 
 đáp án
-
+```
 new technology file system
+```
+task 5:
 
+task 5
+
+ở task này, em học về thư mục windows.
+
+thư mục windows thường nằm ở:
+
+```text
+C:\Windows
+```
+
+thư mục này dùng để chứa các file của hệ điều hành windows.
+
+nhưng nó không bắt buộc phải luôn nằm ở ổ C.
+
+=> vì vậy windows dùng biến môi trường để trỏ tới đúng vị trí thư mục windows.
+
+biến môi trường là nơi lưu các thông tin của hệ thống, ví dụ:
+
+```text
+đường dẫn hệ điều hành
+số lượng CPU
+vị trí thư mục tạm
+```
+
+trong task còn nhắc tới thư mục:
+
+```text
+System32
+```
+
+System32 nằm bên trong thư mục Windows.
+
+đây là thư mục rất quan trọng vì chứa nhiều file core của hệ điều hành.
+
+lưu ý:
+
+```text
+xóa nhầm file trong System32 -> windows có thể lỗi / không chạy được
+```
+
+câu hỏi lab hỏi là:
+
+```text
+what is the system variable for the windows folder?
+```
+
+hiểu đơn giản là:
+
+```text
+biến hệ thống đại diện cho thư mục windows là gì?
+```
+
+trong bài có ghi rõ:
+
+```text
+the system environment variable for the Windows directory is %windir%
+```
+
+=> đáp án là:
+
+```text
+%windir%
+```
 
 
 
