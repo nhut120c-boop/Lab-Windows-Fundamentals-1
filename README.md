@@ -77,7 +77,37 @@ task 3
 task này em chỉ đọc hướng dẫn và khởi động máy ảo windows được lab cấp
 
 task 4
+ở task này, em học về các hệ thống tập tin (file system) trên windows.
 
+<img width="553" height="676" alt="image" src="https://github.com/user-attachments/assets/1f523e4f-b98a-455d-adeb-bef193712835" />
+
+
+trong bài có nhắc đến ntfs là hệ thống tập tin mặc định của các bản windows hiện đại
+
+
+chuẩn mới này được dùng để thay thế cho các chuẩn cũ như fat16, fat32 hay hpfs
+
+ntfs mang lại nhiều ưu điểm vượt trội, điển hình nhất là hỗ trợ các file có dung lượng lớn hơn 4gb
+
+ngoài ra, nó có tính năng tự ghi chú (journaling) để tự động phục hồi lỗi
+
+ntfs cũng cho phép bảo mật tốt hơn thông qua việc thiết lập phân quyền (permissions) cho từng thư mục và tệp tin.
+
+chuẩn này còn có một tính năng gọi là alternate data streams (ads). đây là nơi mà các phần mềm độc hại (malware) thường lợi dụng để ẩn giấu dữ liệu.
+
+câu hỏi 
+
+what is the meaning of ntfs?
+
+hiểu đơn giản là lab đang hỏi: ntfs là viết tắt của cụm từ gì.
+
+sau khi đọc ngay dòng đầu tiên của tài liệu trong task, bài đã giải thích rất rõ
+
+nguyên văn là: "The file system used in modern versions of Windows is the New Technology File System or simply NTFS"
+
+đáp án
+
+new technology file system
 
 
 
