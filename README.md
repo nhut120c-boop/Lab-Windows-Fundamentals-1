@@ -305,6 +305,9 @@ cách tìm:
 mở lusrmgr.msc -> Users -> nhìn cột Name
 ```
 
+<img width="1893" height="1019" alt="image" src="https://github.com/user-attachments/assets/f5770944-fa40-4d01-909d-fdd48cc8fa4b" />
+
+
 trong danh sách có tài khoản:
 
 ```text
@@ -339,18 +342,12 @@ mở lusrmgr.msc -> Users -> nhìn dòng Guest -> cột Description
 Built-in account for guest access to the computer/domain
 ```
 
+
+<img width="1904" height="1072" alt="image" src="https://github.com/user-attachments/assets/660ec7d4-a2d0-43c4-bb29-1fb884f4e5a0" />
+
+
 => đáp án:
 
 ```text
 Built-in account for guest access to the computer/domain
 ```
-
-tóm tắt đáp án task 6:
-
-```text
-tryhackmebilly
-Remote Desktop Users,Users
-Guest
-Built-in account for guest access to the computer/domain
-```
-
