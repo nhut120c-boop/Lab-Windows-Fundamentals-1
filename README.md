@@ -316,38 +316,48 @@ Guest
 
 đây là tài khoản mặc định dùng cho guest access.
 
+
 => đáp án:
+
 
 ```text
 Guest
 ```
 
+
 câu hỏi 4:
+
 
 ```text
 What is the account description?
 ```
 
+
 hiểu đơn giản là hỏi: mô tả của tài khoản Guest là gì?
+
 
 cách tìm:
 
+
 ```text
-mở lusrmgr.msc -> Users -> nhìn dòng Guest -> cột Description
+mở lusrmgr.msc -> Users -> nhìn dòng Users -> cột Description
 ```
+
 
 ở dòng Guest, phần Description ghi là:
 
+ 
 ```text
-Built-in account for guest access to the computer/domain
+window$Fun1!
 ```
 
 
-<img width="1904" height="1072" alt="image" src="https://github.com/user-attachments/assets/660ec7d4-a2d0-43c4-bb29-1fb884f4e5a0" />
+<img width="1885" height="1017" alt="image" src="https://github.com/user-attachments/assets/b320c2ff-14b1-4501-aebf-f708f5f58929" />
+
 
 
 => đáp án:
 
 ```text
-Built-in account for guest access to the computer/domain
+window$Fun1!
 ```
