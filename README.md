@@ -540,4 +540,75 @@ Windows Defender Firewall
 Windows Defender Firewall
 ```
 
+task 9
+
+ở task này, em học về task manager trên windows.
+
+task manager dùng để xem các chương trình và tiến trình đang chạy trên hệ thống.
+
+trong task manager có thể xem:
+
+```text
+ứng dụng đang mở
+process đang chạy
+cpu đang dùng bao nhiêu
+ram đang dùng bao nhiêu
+hiệu năng hệ thống
+```
+
+cách mở task manager:
+
+```text
+right-click taskbar -> task manager
+```
+
+hoặc dùng phím tắt:
+
+```text
+ctrl + shift + esc
+```
+
+khi mới mở, task manager có thể hiện ở simple view.
+
+simple view -> chỉ hiện ít thông tin.
+
+muốn xem chi tiết hơn thì bấm:
+
+```text
+more details
+```
+
+sau đó task manager sẽ hiện nhiều tab và nhiều thông tin hơn.
+
+trong forensics, task manager giúp em kiểm tra nhanh process lạ đang chạy trên máy.
+
+ví dụ có thể soi:
+
+```text
+process lạ
+app đang chạy nền
+mức cpu/ram bất thường
+chương trình nghi malware
+```
+
+câu hỏi lab hỏi là:
+
+```text
+what is the keyboard shortcut to open task manager?
+```
+
+hiểu đơn giản là:
+
+```text
+phím tắt để mở task manager là gì?
+```
+
+đáp án:
+
+```text
+ctrl + shift + esc
+```
+<img width="900" height="335" alt="image" src="https://github.com/user-attachments/assets/d6bedd5b-64e2-44a2-88d4-7da498f45ad1" />
+
+
 
